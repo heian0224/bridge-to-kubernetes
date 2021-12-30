@@ -22,6 +22,10 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="BridgeToKubernetesID" class="com.liucongblog.bridgetokubernetes.BridgeAction"
+            text="Bridge To Kubernetes" description="Bridge your local service to your kubernetes cluster.">
+      <add-to-group group-id="EditMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
